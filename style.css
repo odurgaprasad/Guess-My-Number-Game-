@@ -1,0 +1,77 @@
+html {
+  font-size: 63.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'press start 2p', sans-serif;
+  color: #eee;
+  background-color: #333;
+}
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  height: 5rem;
+  width: 10rem;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 800;
+}
+.between {
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: end;
+  position: absolute;
+  left: 70%;
+  bottom: 70%;
+}
+
+.guess {
+  border-radius: 10px;
+  height: 150px;
+  width: 250px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
